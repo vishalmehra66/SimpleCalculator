@@ -1,0 +1,55 @@
+
+.Calculatorui{
+    border: 4px  rgb(229, 180, 180) double;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+    /* box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.5); */
+
+}
+.container{
+
+    margin: 10px  1px;
+    font-size: larger;
+    background-color: blanchedalmond;
+    width: 220px;
+    text-align: center;
+    border: 2px solid rgb(170, 154, 152);
+}
+
+input[type="button"]{
+    background-color: rgb(204, 201, 216);
+    border: 2px solid #000;
+    border-radius: 5px;
+    width: 100%;
+}
+input[value="="]{
+    background-color: rgb(134, 134, 200);
+    font-size: medium;
+    
+}
+
+.equal{
+background-color: rgb(104, 104, 219);
+}
+
+input[type="text"]{
+    background-color: rgb(248, 229, 202);
+    border: 2px solid black;
+    border-radius: 2px;
+    color: rgb(28, 26, 26);
+    font-weight: bold;
+   
+
+}
+
+table{
+    width: 220px;
+    height: 200px;
+    border: 2px solid rgb(220, 158, 158);
+    background-color: rgb(254, 250, 234);
+
+}
